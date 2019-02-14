@@ -69,7 +69,6 @@ body{
     width: 100%;
     height: 34px;
     border-bottom: 1px solid #ebebeb;
-    
 }
 .tools ul{
     margin-left: 140px;
@@ -79,10 +78,9 @@ body{
     display: inline-block;
     margin-left: 29px;
     color: #777;
-   
 }
 #setting-padding{
-    padding-left: 125px;
+    padding-left: 100px;
 }
 #tools-active{
     border-bottom: 3px solid #1A73E8;
@@ -94,11 +92,45 @@ body{
 }
 /* result count */
 .result-count{
-    width: 100%;
     height: 20px;
     margin-left: 166px;
     margin-top: 12px;
     color: #808080;
+}
+/* main results */
+.main-results{
+    height: auto;
+    width: 48%;
+    margin-left: 168px;
+    display: block;
+    margin-top: 17px;
+}
+.result-color{
+    color: #1a0dab;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+.result-url{
+    display: block;
+    color: #006621;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 4px;
+}
+.result-text{
+    display: block;
+    padding-top: 6px;
+    color: #545454;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 15px;
+}
+.result1{
+    margin-bottom: 29px;
 }
 
 
