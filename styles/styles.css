@@ -132,6 +132,27 @@ body{
 .result1{
     margin-bottom: 29px;
 }
-
+/* search related to query */
+.search-related{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+.related-results1{
+width: 48%;
+float: left;
+}
+.related-results2{
+width: 48%;
+float: left;
+}
+.related-results1,
+.related-results2{
+    color: #1a0dab;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+}
 
 
